@@ -1,0 +1,38 @@
+.projects-page {
+  padding-top: 68px;
+}
+
+.projects-page h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.5px;
+}
+
+.projects-introduction {
+  margin-top: 16px;
+  font-size: 17px;
+  line-height: 1.55;
+}
+
+.projects-gallery {
+  margin-top: 40px;
+}
+
+@media (max-width: 639px) {
+  .projects-page {
+    padding-top: 54px;
+  }
+
+  .projects-page h1 {
+    font-size: 30px;
+  }
+
+  .projects-introduction {
+    font-size: 16px;
+  }
+
+  .projects-gallery {
+    margin-top: 30px;
+  }
+}
