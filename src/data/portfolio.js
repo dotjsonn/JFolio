@@ -31,6 +31,7 @@ import problemSolvingCertificate from '../../assets/certificates/previews/proble
 import javascriptCertificate from '../../assets/certificates/previews/javascript-basic.jpg'
 import awsAiPractitionerBadge from '../../assets/certificates/AWS Certified AI Practitioner certificate.png'
 
+import balikItPreview from '../../assets/preview/balikit.png'
 import warrantyKeepPreview from '../../assets/preview/warrantykeep.png'
 import calculatorPreview from '../../assets/preview/calculator.png'
 import etchASketchPreview from '../../assets/preview/etch-a-sketch.png'
@@ -68,6 +69,28 @@ export const portfolio = {
   projects: [
     {
       id: 'featured-project-01',
+      title: 'BalikIt',
+      summary: 'A MERN stack app that provide one organized place where people can report lost or found items',
+      featured: true,
+      image: balikItPreview,
+      imageAlt: 'BalikIt application preview',
+      technologies: ['TypeScript', 'MongoDB', 'Mongoose', 'Express', 'React', 'Node', 'JWT'],
+      github: 'https://github.com/dotjsonn/BalikIt',
+      demo: 'https://balikit.onrender.com/',
+    },
+    {
+      id: 'featured-project-02',
+      title: 'Blog-List (with API testing)',
+      summary: 'A REST API for managing blogs with authentication and CRUD operations. Automated tests use Node.js Test Runner and Supertest.',
+      featured: true,
+      image: null,
+      imageAlt: '',
+      technologies: ['JavaScript', 'MongoDB', 'Mongoose', 'Express', 'Node', 'JWT', 'Supertest'],
+      github: 'https://github.com/dotjsonn/Blog-List',
+      demo: null, // API project; no live preview.
+    },
+    {
+      id: 'featured-project-03',
       title: 'WarrantyKeep',
       summary: 'A full-stack app for organizing product warranties, tracking expiration dates, and storing receipt links, with searchable records and an admin dashboard.',
       featured: true,
@@ -78,18 +101,7 @@ export const portfolio = {
       demo: 'https://warranty-keep-five.vercel.app/',
     },
     {
-      id: 'featured-project-02',
-      title: 'Blog-List (with API testing)',
-      summary: 'A REST API for managing blogs with authentication and CRUD operations. Automated tests use Node.js Test Runner and Supertest.',
-      featured: true,
-      image: null,
-      imageAlt: '',
-      technologies: ['MongoDB', 'Mongoose', 'Express', 'Node', 'JWT', 'Supertest'],
-      github: 'https://github.com/dotjsonn/Blog-List',
-      demo: null, // API project; no live preview.
-    },
-    {
-      id: 'featured-project-03',
+      id: 'featured-project-04',
       title: 'Basic Calculator',
       summary: 'A browser calculator for basic arithmetic, decimals, and chained operations, with clear controls and invalid-input alerts.',
       featured: true,
@@ -100,7 +112,7 @@ export const portfolio = {
       demo: 'https://dotjsonn.github.io/calculator/',
     },
     {
-      id: 'featured-project-04',
+      id: 'featured-project-05',
       title: 'Etch a Sketch',
       summary: 'An interactive grid-based drawing app with adjustable grid sizes, a color picker, and a reset control.',
       featured: true,
